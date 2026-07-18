@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.20 FATAL_ERROR)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 project(JoltPhysics VERSION 5.5.0 LANGUAGES CXX)
 
 # When turning this option on, the library will be compiled using assertions. By default asserts are enabled in Debug build.
